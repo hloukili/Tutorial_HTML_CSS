@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.page {
+    width:900px;
+    margin: 0 auto;
+    overflow: hidden;   /* We're telling it to recognize the height of any floated elements it contains.*/
+    border: 1px solid red;
+    background-color:#EAEDF0;
+
+}
+
+
+.menu {
+    height:100px;
+    background-color:#B2D6FF;
+}
+
+
+.container {
+    overflow:hidden;
+    background-color:#EAEDF0;
+}
+
+.sidebar {
+    float:left;
+    width:200px;
+    height:300px;
+    background-color: red;
+}
+
+.content {
+    float:left;
+    width:650px;
+    height:500px;
+    background-color:yellow;
+    padding:20px;
+}
+
+.article-image {
+    float:left;
+    /*width:300px;*/
+    height:200px;
+    margin-right:20px;
+    margin-bottom: 20px;
+
+}
+
+.avatar {
+    float:left;
+    width:60px;
+    height:60px;
+    margin:25px;
+    border-radius:40px;
+    background-color: #D6E9FE;
+}
+
+.username {
+    margin-top:30px;
+}
+
+
+.comment {
+    margin:10px;
+    overflow:hidden;
+}
+
+p {
+    margin-bottom: 20px;
+    margin-top:20px;
+
+}
+
+
+.footer {
+    overflow: hidden;
+    clear:both; /* Force the element put vertically of float element */
+    //height:200px;
+    background-color:#D6E9FE;
+}
+
+.footer-item {
+    float:left;
+    width:31%;
+    margin: 20px 1.15%;
+    height:160px;
+    background-color:#B2D6FF;
+}
