@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Portfolio</title>
+    <link rel='stylesheet' href='styles.css'/>
+      <meta name='viewport' content='width=device-width, inital-scale=1.0,
+                                     maximum-scale=1.0'/>
+  
+    
+ </head>
+    
+  <body class="position-fixed d-flex flex-column text-white bg-red">
+    <header class="page-header">
+      <nav class="d-flex justify-content-between">
+        <a href="" class="logo"><strong>Halim Loukili</strong></a>
+        <ul class="d-flex">
+            <li> <a href="">Skills</a></li>  
+        </ul>
+     </nav>
+    </header>
+    <h1 class="position-absolute w-100 text-center heading">Developer JS</h1>
+    <a class="position-absolute contact" href="mailto:loukilihalim.lh@gmail.com">Email</a>
+    
+    <section class="position-absolute d-flex align-items-center justify-content-center text-black bg-white skills-section" data-slideIn="to-top">
+        <button class="position-absolute skills-close" aria-label="Close Skills Section">X</button>
+        <div class="d-flex chart-wrapper">
+            <ul class="chart-levels">
+                <li>Expert</li>
+                <li>Advanced</li>
+                <li>Intermediate</li>
+                <li>Beginner</li>
+                <li>Novice</li>
+            </ul>
+            
+            <ul class="d-flex justify-content-around align-items-end flex-grow-1 text-center bg-black chart-skills">
+                <li class="position-relative bg-red" data-height="60%">
+                    <span class="position-absolute w-100">CSS</span>
+                </li>
+                <li class="position-relative bg-red" data-height="80%">
+                    <span class="position-absolute w-100">HTML</span>
+                </li>
+                <li class="position-relative bg-red" data-height="30%">
+                    <span class="position-absolute w-100">JavaScript</span>
+                </li>
+             </ul>
+        </div>
+      </section>
+        
+      <script src="portfolio.js"></script>
+    </body>
+</html>
